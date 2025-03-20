@@ -2,11 +2,15 @@
 import HelloWorld from './components/HelloWorld.vue'
 import DataBindingExample from './components/DataBindingExample.vue'
 import ComputedExample from './components/ComputedExample.vue'
+import WatcherExample from './components/WatcherExample.vue'
+import LifecycleHooksExample from './components/LifecycleHooksExample.vue'
 </script>
 
 <template>
   <DataBindingExample />
   <ComputedExample />
+  <WatcherExample />
+  <LifecycleHooksExample />
 </template>
 
 <style scoped>
